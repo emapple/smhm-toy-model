@@ -3,7 +3,6 @@ dependencies:
     - python=3.7
     - numpy
     - scipy
-    - pandas
     - nb_conda
     - jupyter
     - matplotlib
