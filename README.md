@@ -1,7 +1,9 @@
 # smhm-toy-model
 A visualization of a toy model of the stellar mass-halo mass relation
 
-In the notebook, you will find an interactive applet to see how different parameters of the stellar mass-halo mass (SMHM) relation affect both observational predictions and resulting inferences.
+In the notebook, you will find an interactive applet to see how different parameters of the stellar mass-halo mass (SMHM) relation affect both observational predictions and resulting inferences. An example is shown here, where the underlying mean SMHM is shown in blue, the scatter is shown in the shaded region, and the inferred mean SMHM is shown in orange.
+
+![example SMHM toy model](figures/toy-model-example.png)
 
 ## Model description
 The model assumes that the SMHM can be described by a broken power law with log-normal scatter. We have fixed the high-mass slope to the results of our [hydrodynamic simulations](LINK TO ARXIV). The low-mass slope (α), however, is allowed to vary. The scatter can also be adjusted, and is allowed to either be constant (σ) or growing (with slope γ). We assume every halo hosts a galaxy, but that there is some mass (m<sub>min</sub>) below which galaxies are unresolved, and therefore the halos are classified as "dark."
